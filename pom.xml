@@ -102,10 +102,5 @@
   		<artifactId>httpclient</artifactId>
   		<version>4.3.6</version>
   	</dependency>
-  	<dependency>
-        <groupId>org.eclipse.platform</groupId>
-        <artifactId>org.eclipse.swt</artifactId>
-        <version>3.108.0</version>
-    </dependency>
   </dependencies>
 </project>
