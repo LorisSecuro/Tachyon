@@ -1,3 +1,4 @@
+package tachyon;
 public final class Settings {
     private Settings() {}
 

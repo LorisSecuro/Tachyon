@@ -1,3 +1,4 @@
+package gui;
 import java.io.File;
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -18,6 +19,8 @@ import org.eclipse.swt.widgets.MessageBox;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Spinner;
 import org.eclipse.swt.widgets.Text;
+
+import tachyon.TachyonDownload;
 
 public class TachyonGUI extends Composite {
 

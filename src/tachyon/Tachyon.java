@@ -1,3 +1,4 @@
+package tachyon;
 /**
  * Multipart donwloader by Sam46.
  * https://github.com/sam46
