@@ -5,6 +5,7 @@ import java.io.OutputStream;
 
 import org.eclipse.swt.widgets.Text;
 
+// output stream that redirects the text in a SWT Text
 public class SWTTextOutputStream extends OutputStream {
 
 	private final Text text;
@@ -30,6 +31,7 @@ public class SWTTextOutputStream extends OutputStream {
 
 	private void updateText(String s) {
 		if (text != null) {
+			// we need to run this in the UI thread
 			text.getDisplay().asyncExec(new Runnable() {
 				@Override
 				public void run() {
